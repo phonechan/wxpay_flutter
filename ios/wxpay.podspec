@@ -21,6 +21,7 @@ A new Flutter plugin project.
   s.libraries        = 'c++', 'z', 'sqlite3.0'
   s.source_files     = 'OpenSDK1.9.2/*.h', 'Classes/**/*'
   s.vendored_libraries = 'OpenSDK1.9.2/libWeChatSDK.a'
+  s.static_framework = true
   # WeChat OpenSDK end
   
   s.dependency 'Flutter'
